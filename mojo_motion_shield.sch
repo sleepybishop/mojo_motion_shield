@@ -524,7 +524,6 @@ NoConn ~ 2300 2600
 NoConn ~ 2300 2700
 NoConn ~ 2300 2800
 NoConn ~ 2200 2700
-NoConn ~ 2300 2900
 Text Label 9500 5350 2    60   ~ 0
 ~MOTION
 $Comp
@@ -646,7 +645,6 @@ NoConn ~ 4300 2600
 NoConn ~ 4300 2700
 NoConn ~ 4300 2800
 NoConn ~ 4200 2700
-NoConn ~ 4300 2900
 Text Label 3850 2050 0    60   ~ 0
 ~ECO
 Text Label 3950 2150 0    60   ~ 0
@@ -753,7 +751,6 @@ NoConn ~ 2300 3950
 NoConn ~ 2300 4050
 NoConn ~ 2300 4150
 NoConn ~ 2200 4050
-NoConn ~ 2300 4250
 Text Label 1850 3400 0    60   ~ 0
 ~ECO
 Text Label 1950 3500 0    60   ~ 0
@@ -860,7 +857,6 @@ NoConn ~ 4300 3950
 NoConn ~ 4300 4050
 NoConn ~ 4300 4150
 NoConn ~ 4200 4050
-NoConn ~ 4300 4250
 Text Label 3850 3400 0    60   ~ 0
 ~ECO
 Text Label 3950 3500 0    60   ~ 0
@@ -967,7 +963,6 @@ NoConn ~ 2300 5400
 NoConn ~ 2300 5500
 NoConn ~ 2300 5600
 NoConn ~ 2200 5500
-NoConn ~ 2300 5700
 Text Label 1850 4850 0    60   ~ 0
 ~ECO
 Text Label 1950 4950 0    60   ~ 0
@@ -1074,7 +1069,6 @@ NoConn ~ 4300 5400
 NoConn ~ 4300 5500
 NoConn ~ 4300 5600
 NoConn ~ 4200 5500
-NoConn ~ 4300 5700
 Text Label 3850 4850 0    60   ~ 0
 ~ECO
 Text Label 3950 4950 0    60   ~ 0
@@ -1176,7 +1170,6 @@ NoConn ~ 9500 4650
 NoConn ~ 9500 4550
 NoConn ~ 9500 4450
 NoConn ~ 9500 4350
-NoConn ~ 10550 3950
 NoConn ~ 9500 4050
 NoConn ~ 9500 4150
 $Comp
@@ -1405,4 +1398,30 @@ Text Label 10550 4050 0    60   ~ 0
 SS0TX
 Text Label 10550 4150 0    60   ~ 0
 SS0RX
+Text Label 4800 2900 0    60   ~ 0
+~FAULT
+Text Label 4800 4250 0    60   ~ 0
+~FAULT
+Text Label 4800 5700 0    60   ~ 0
+~FAULT
+Text Label 2800 5700 0    60   ~ 0
+~FAULT
+Text Label 2800 4250 0    60   ~ 0
+~FAULT
+Text Label 2800 2900 0    60   ~ 0
+~FAULT
+Wire Wire Line
+	2300 2900 2800 2900
+Wire Wire Line
+	4300 2900 4800 2900
+Wire Wire Line
+	2300 4250 2800 4250
+Wire Wire Line
+	4300 4250 4800 4250
+Wire Wire Line
+	4300 5700 4800 5700
+Wire Wire Line
+	2300 5700 2800 5700
+Text Label 10550 3950 0    60   ~ 0
+~FAULT
 $EndSCHEMATC
