@@ -46,7 +46,7 @@ Text Label 8450 4450 0    60   ~ 0
 YSTEP
 Text Label 7400 4450 2    60   ~ 0
 YDIR
-Text Label 7400 4950 2    60   ~ 0
+Text Label 7400 4850 2    60   ~ 0
 ZDIR
 Text Label 8450 4150 0    60   ~ 0
 SPI0_OUT
@@ -517,8 +517,6 @@ LVTTL
 Text Label 2500 7250 0    60   ~ 0
 GND
 NoConn ~ 10550 5350
-NoConn ~ 10550 5150
-NoConn ~ 10550 5050
 NoConn ~ 2300 2500
 NoConn ~ 2300 2600
 NoConn ~ 2300 2700
@@ -1085,13 +1083,13 @@ Text Label 9500 5250 2    60   ~ 0
 ASTEP
 Text Label 10550 5250 0    60   ~ 0
 ADIR
-Text Label 9500 4950 2    60   ~ 0
+Text Label 9500 4750 2    60   ~ 0
 BSTEP
-Text Label 10550 4950 0    60   ~ 0
+Text Label 9500 4850 2    60   ~ 0
 BDIR
-Text Label 9500 4250 2    60   ~ 0
+Text Label 9500 4450 2    60   ~ 0
 CSTEP
-Text Label 10550 4250 0    60   ~ 0
+Text Label 10550 4450 0    60   ~ 0
 CDIR
 Wire Wire Line
 	2300 2400 2750 2400
@@ -1117,7 +1115,7 @@ Wire Wire Line
 	4300 5200 4750 5200
 Wire Wire Line
 	4750 5200 5050 5200
-Text Label 8450 4950 0    60   ~ 0
+Text Label 8450 4850 0    60   ~ 0
 ZSTEP
 Text Label 10000 1450 0    50   ~ 0
 +3V3
@@ -1136,7 +1134,6 @@ F 3 "" H 7200 4050 60  0000 C CNN
 	3    7900 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7400 4550
 Text Label 2000 7350 2    60   ~ 0
 CS3
 Text Label 2000 7450 2    60   ~ 0
@@ -1149,29 +1146,20 @@ Text Label 2500 7450 0    60   ~ 0
 SPI1_IN
 Text Label 2500 7550 0    60   ~ 0
 SPI1_CLK
-Text Label 8450 4650 0    60   ~ 0
+Text Label 10550 4150 0    60   ~ 0
 SPI1_OUT
-Text Label 8450 4750 0    60   ~ 0
+Text Label 10550 4250 0    60   ~ 0
 SPI1_IN
-Text Label 8450 4850 0    60   ~ 0
+Text Label 10550 4350 0    60   ~ 0
 SPI1_CLK
-Text Label 7400 4650 2    60   ~ 0
+Text Label 9500 4150 2    60   ~ 0
 CS3
-Text Label 7400 4750 2    60   ~ 0
+Text Label 9500 4250 2    60   ~ 0
 CS4
-Text Label 7400 4850 2    60   ~ 0
+Text Label 9500 4350 2    60   ~ 0
 CS5
-NoConn ~ 8450 4550
-NoConn ~ 9500 5150
-NoConn ~ 9500 5050
-NoConn ~ 9500 4850
-NoConn ~ 9500 4750
 NoConn ~ 9500 4650
 NoConn ~ 9500 4550
-NoConn ~ 9500 4450
-NoConn ~ 9500 4350
-NoConn ~ 9500 4050
-NoConn ~ 9500 4150
 $Comp
 L Connector_Generic:Conn_01x05 J4
 U 1 1 5CE4E314
@@ -1298,29 +1286,29 @@ Text Label 850  5250 2    60   ~ 0
 CENC_B
 Text Label 850  5350 2    60   ~ 0
 CENC_I
-Text Label 8450 5050 0    60   ~ 0
+Text Label 8450 4550 0    60   ~ 0
 YENC_A
-Text Label 8450 5150 0    60   ~ 0
+Text Label 8450 4650 0    60   ~ 0
 YENC_B
-Text Label 8450 5250 0    60   ~ 0
+Text Label 8450 4750 0    60   ~ 0
 YENC_I
-Text Label 7400 5050 2    60   ~ 0
+Text Label 7400 4550 2    60   ~ 0
 XENC_A
-Text Label 7400 5150 2    60   ~ 0
+Text Label 7400 4650 2    60   ~ 0
 XENC_B
-Text Label 7400 5250 2    60   ~ 0
+Text Label 7400 4750 2    60   ~ 0
 XENC_I
-Text Label 7400 5350 2    60   ~ 0
+Text Label 7400 4950 2    60   ~ 0
 ZENC_A
-Text Label 7400 5450 2    60   ~ 0
+Text Label 7400 5050 2    60   ~ 0
 ZENC_B
-Text Label 7400 5550 2    60   ~ 0
+Text Label 7400 5150 2    60   ~ 0
 ZENC_I
-Text Label 8450 5350 0    60   ~ 0
+Text Label 8450 4950 0    60   ~ 0
 AENC_A
-Text Label 8450 5450 0    60   ~ 0
+Text Label 8450 5050 0    60   ~ 0
 AENC_B
-Text Label 8450 5550 0    60   ~ 0
+Text Label 8450 5150 0    60   ~ 0
 AENC_I
 Text Label 7400 6150 2    60   ~ 0
 GND
@@ -1376,27 +1364,27 @@ Text Label 4650 7550 2    60   ~ 0
 GND
 Text Label 3450 7350 2    60   ~ 0
 SS0TX
-Text Label 3450 7450 2    60   ~ 0
-SS0TX
-Text Label 3950 7350 0    60   ~ 0
-SS0RX
 Text Label 3950 7450 0    60   ~ 0
+SS0RX
+Text Label 3950 7350 0    60   ~ 0
+SS0TX
+Text Label 3450 7450 2    60   ~ 0
 SS0RX
 Text Label 4650 7350 2    60   ~ 0
 SS1TX
 Text Label 4650 7450 2    60   ~ 0
-SS1TX
-Text Label 5150 7350 0    60   ~ 0
 SS1RX
+Text Label 5150 7350 0    60   ~ 0
+SS1TX
 Text Label 5150 7450 0    60   ~ 0
 SS1RX
-Text Label 10550 4450 0    60   ~ 0
+Text Label 8450 5550 0    60   ~ 0
 SS1RX
-Text Label 10550 4350 0    60   ~ 0
+Text Label 8450 5450 0    60   ~ 0
 SS1TX
-Text Label 10550 4050 0    60   ~ 0
+Text Label 8450 5250 0    60   ~ 0
 SS0TX
-Text Label 10550 4150 0    60   ~ 0
+Text Label 8450 5350 0    60   ~ 0
 SS0RX
 Text Label 4800 2900 0    60   ~ 0
 ~FAULT
@@ -1424,4 +1412,16 @@ Wire Wire Line
 	2300 5700 2800 5700
 Text Label 10550 3950 0    60   ~ 0
 ~FAULT
+NoConn ~ 7400 5550
+NoConn ~ 7400 5450
+NoConn ~ 7400 5350
+NoConn ~ 7400 5250
+NoConn ~ 9500 5150
+NoConn ~ 9500 5050
+NoConn ~ 9500 4950
+NoConn ~ 10550 4950
+NoConn ~ 10550 5050
+NoConn ~ 10550 5150
+NoConn ~ 9500 4050
+NoConn ~ 10550 4050
 $EndSCHEMATC
